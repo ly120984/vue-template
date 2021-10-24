@@ -1,0 +1,37 @@
+{
+  "name": "vue-template",
+  "devPort": 8080,
+  "version": "0.1.0",
+  "scripts": {
+    "build": "face-code-cli build",
+    "pack": "face-code-cli pack",
+    "dev": "face-code-cli dev",
+    "pack:dev": "face-code-cli pack:dev",
+    "u": "npm i face-code3.0@latest --save --registry=https://registry.npmjs.org/",
+    "update": "npm i face-code3.0@latest --save --registry=https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "face-code3.0": "^3.1.7",
+    "vue": "^2.6.10",
+    "vue-progressbar": "^0.7.5",
+    "vue-router": "^3.1.3",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^4.1.0",
+    "copy-webpack-plugin": "6.3.1",
+    "cross-env": "^7.0.2",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <script src="./static/config.js?t=<%= process.env.VUE_APP_DATE %>"></script>
+  <script src="./static/lib/system.min.js"></script>
+  <title></title>
+  <script>
+    document.title = window.GLOBAL.title
+  </script>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but app-hr doesn't work properly without JavaScript enabled. Please enable it to
+      continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- 高德map -->
+  <script type="text/javascript"
+    src="https://webapi.amap.com/maps?v=1.4.15&key=7950abac8542b3fa5239e907d855fb1e&plugin=AMap.Geocoder"></script>
+  <!-- 移动打点 -->
+  <script src="https://webapi.amap.com/ui/1.0/main.js?v=1.0.11"></script>
+</body>
+
+</html>
